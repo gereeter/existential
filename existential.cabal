@@ -1,0 +1,12 @@
+Name:          existential
+Version:       0.1
+Description:   A library for dealing with existential quantification
+Author:        Jonathan S
+Build-Type:    Simple
+Cabal-Version: >=1.8
+
+library
+    HS-Source-Dirs:  src
+    Build-Depends:   base, containers, transformers
+    Exposed-modules: Data.Existential, Data.Existential.Map, Data.Existential.Map.Lazy
+    ghc-options:     -Wall
